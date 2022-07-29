@@ -33,7 +33,7 @@ export default registerAs(
         },
 
         httpOn: process.env.APP_HTTP_ON === 'true' ? true : false,
-        taskOn: process.env.APP_TASK_ON === 'true' || false,
+        taskScheduleOn: process.env.APP_TASK_SCHEDULE_ON === 'true' || false,
         microserviceOn:
             process.env.APP_MICROSERVICE_ON === 'true' ? true : false,
     })
